@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/send-reminders",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/auto-complete-appointments",
+      "schedule": "*/30 * * * *"
+    },
+    {
+      "path": "/api/cron/apply-retention",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
